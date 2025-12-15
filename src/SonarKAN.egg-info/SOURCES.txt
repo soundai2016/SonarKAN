@@ -1,0 +1,12 @@
+MANIFEST.in
+setup.py
+version.txt
+SonarKAN.egg-info/PKG-INFO
+SonarKAN.egg-info/SOURCES.txt
+SonarKAN.egg-info/dependency_links.txt
+SonarKAN.egg-info/requires.txt
+SonarKAN.egg-info/top_level.txt
+sonarkan/__init__.py
+sonarkan/bspline.py
+sonarkan/models.py
+sonarkan/surrogate.py

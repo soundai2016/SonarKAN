@@ -1,0 +1,94 @@
+{
+  "n_seeds": 5,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "params_sonarkan": 51,
+  "params_mlp": 65,
+  "rmse_clean": {
+    "sonarkan_phys_mean_std": [
+      2.8477746486663817,
+      0.10891570085741129
+    ],
+    "sonarkan_rand_mean_std": [
+      31.825211334228516,
+      0.03411728409116068
+    ],
+    "mlp_mean_std": [
+      25.475046920776368,
+      0.5562444098463503
+    ]
+  },
+  "component_recovery": {
+    "phi_r_rmse_full": {
+      "sonarkan_phys_mean_std": [
+        1.8865728894468425,
+        0.0026020227252222332
+      ],
+      "sonarkan_rand_mean_std": [
+        6.825213507539383,
+        0.010687437892195461
+      ]
+    },
+    "phi_r_corr_full": {
+      "sonarkan_phys_mean_std": [
+        0.9723639158222476,
+        8.03043675435816e-05
+      ],
+      "sonarkan_rand_mean_std": [
+        0.9107310152901438,
+        0.003553991243946292
+      ]
+    },
+    "phi_f_rmse": {
+      "sonarkan_phys_mean_std": [
+        2.0568198156407034,
+        0.01375810690525723
+      ],
+      "sonarkan_rand_mean_std": [
+        2.861671998561488,
+        0.010166968079864247
+      ]
+    },
+    "phi_f_corr": {
+      "sonarkan_phys_mean_std": [
+        0.8735853551823357,
+        0.0037858534565599106
+      ],
+      "sonarkan_rand_mean_std": [
+        0.189654154951517,
+        0.010465066615790442
+      ]
+    }
+  },
+  "convergence_speed": {
+    "epochs_to_within_5pct_final_loss_mean_std": {
+      "sonarkan_phys": [
+        192.0,
+        0.0
+      ],
+      "sonarkan_rand": [
+        191.0,
+        0.0
+      ],
+      "mlp": [
+        186.0,
+        1.5811388300841898
+      ]
+    }
+  },
+  "physics_init": {
+    "ls_projection_rmse_mean_std": [
+      0.01317660586626875,
+      0.0
+    ],
+    "mean_tl_mean_std": [
+      -66.4634547079931,
+      0.0
+    ]
+  }
+}

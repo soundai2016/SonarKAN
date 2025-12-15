@@ -1,0 +1,10 @@
+outputs:
+  path: outputs/fig1/fig1_sonarkan_mechanism.png
+
+spline_demo:
+  n_basis: 6
+  degree: 3
+  xmin: 0.0
+  xmax: 1.0
+  centers: [0.15, 0.35, 0.55, 0.75]   
+  coeffs: [0.5, 1.2, -0.8, 0.4]

@@ -1,0 +1,10 @@
+# Tested environment (CPU)
+# Python 3.12 (also compatible with 3.11+)
+numpy==1.26.4
+matplotlib==3.10.0
+PyYAML==6.0.2
+torch==2.9.1
+
+# Notes:
+# - If you install a GPU build of torch, the torch version string may differ (e.g., +cu121).
+# - For LaTeX figure inclusion, scripts write outputs under outputs/fig1 and outputs/fig2.
