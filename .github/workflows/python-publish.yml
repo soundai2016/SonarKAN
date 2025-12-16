@@ -14,7 +14,6 @@ on:
 
 permissions:
   contents: read
-  id-token: write
 
 jobs:
   release-build:
@@ -64,9 +63,9 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: release-dists
-          path: dist/
+          path: src/dist/
 
       - name: Publish release distributions to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
-          packages-dir: dist/
+          packages-dir: src/dist/
