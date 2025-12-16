@@ -36,6 +36,8 @@ jobs:
       - release-build
     permissions:
       id-token: write
+      attestations: write   
+      contents: read        
 
     environment:
       name: pypi
