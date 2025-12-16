@@ -15,6 +15,23 @@ Design goals:
 
 ---
 
+## Installation (PyPI)
+
+If you wish to use `SonarKAN` as a library in your own project (independent of he paper reproduction scripts), you can install it directly from PyPI:
+
+```bash
+pip install sonarkan
+```
+
+**Basic Usage:**
+
+```python
+from sonarkan.models import SonarKAN
+
+# Initialize the model (refer to src/sonarkan/models.py for arguments)
+# model = SonarKAN(...)
+```
+
 ## 1) Environment
 
 Recommended: Python **3.10–3.12**.
